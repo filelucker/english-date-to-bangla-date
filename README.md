@@ -17,7 +17,9 @@ Add it in your root build.gradle at the end of repositories:
   Step 2. Add the dependency
 ```gradel
 	dependencies {
-	        implementation 'com.github.filelucker:english-date-to-bangla-date:1.0.0'
+		...
+	        implementation 'com.github.filelucker:english-date-to-bangla-date:1.1.1'
+		...
 	}
   ```
 Share this release:
