@@ -27,5 +27,25 @@ Add it in your root build.gradle at the end of repositories:
  ```kotlin
  import com.filelucker.englishdatetobangladate.Bangla
  ```
+ 
+ Create an Object
+ 
+ ```kotlin
+ val bangla = Bangla()
+ ```
+ 
+ Get result from object
+ 
+ ```kotlin
+ //Input englishYear, englishMonth, englishDay are integer value 
+ val res = bangla.getBanglaDate(englishYear, englishMonth, englishDay)   // Return format "MMM DD, YYYY" format.  e.g. BOISHAKH 18, 1429
+ 
+ //Input banglaYear, banglaMonth, banglaDay are integer value 
+ val res = bangla.getEnglishDate(banglaYear, banglaMonth, banglaDay)     // Return format "MMM DD, YYYY" format.  e.g. JANUARY 18, 2023
+ ```
+ 
+ ```kotlin
+ val month = res.getMonth()!!.banglaName  // e.g. বৈশাখ
+ ```
 
 Share this release:
