@@ -12,6 +12,7 @@ Add it in your root build.gradle at the end of repositories:
 		}
 	}
   ```
+ add this to ```build.gradle (Module: app)``` or if you are using "Android Studio Arctic Fox" or heigher add this to ```settings.gradle (Project Settings)```
   
   Step 2. Add the dependency
 ```gradel
