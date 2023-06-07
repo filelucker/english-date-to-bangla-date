@@ -1,5 +1,7 @@
 # English To Bangla Date Library
 
+The English Calendar Date to Bangla Calendar Date Library is a reliable and efficient tool for converting dates from the English calendar system to the Bangla calendar system. With accurate conversion, seamless integration, and flexible customization options, this library simplifies the process of date conversion for developers and individuals working with the Bangla calendar. 
+
 To get a Git project into your build:
 
 Step 1. Add the JitPack repository to your build file
